@@ -1,0 +1,2 @@
+# Gas-Leakage-And-It-s-Detection-And-Prevention
+This project aims at detecting any Gas Leakage in laboratory and raise the usual sound and buzzer alarm but along with it the IoT oriented Gas Leakage Detection System also notifies the person in charge with the help by sending SMS over phone. Also when the gas overflow is detected by the sensor, the system automatically switches on the exhaust fan to scale down the concentration of the gas level and makes the situation under control.
