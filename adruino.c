@@ -4,7 +4,7 @@ LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
 
 SoftwareSerial mySerial(9, 10);
 
-int gasValue = A0; // smoke / gas sensor connected with analog pin A1 of the arduino / mega.
+int gasValue = A0; //gas sensor connected with analog pin A1 of the arduino.
 int data = 0;
 
 void setup()
@@ -34,7 +34,7 @@ lcd.print("Gas Level: ");
 lcd.print(data);
 delay(1000);
 
-if ( data > 500) //
+if ( data > 500) 
 {
 SendMessage();
 Serial.print("Gas detect alarm");
@@ -62,7 +62,7 @@ void SendMessage()
 {
 Serial.println("I am in send");
 mySerial.println("AT+CMGF=1"); //Sets the GSM Module in Text Mode
-delay(1000); // Delay of 1000 milli seconds or 1 second
+delay(1000); 
 mySerial.println("AT+CMGS=\"+91900xxxxxxx\"\r"); // Replace x with mobile number
 delay(1000);
 mySerial.println("Excess Gas Detected. Open Windows");// The SMS text you want to send
