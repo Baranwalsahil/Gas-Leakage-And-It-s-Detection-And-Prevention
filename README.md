@@ -3,11 +3,11 @@ The importance of safety for public and private structures has been growing dras
 
 Components Required-
 
- Arduino UNO (ATMEGA328)
- SIM 800 GSM Module
- MQ-5 Gas Sensor
- 16x2 LCD
- Piezo Buzzer
- 12V,1A Power Adapter
- Exhaust Fan
+ Arduino UNO (ATMEGA328)<br>
+ SIM 800 GSM Module<br>
+ MQ-5 Gas Sensor<br>
+ 16x2 LCD<br>
+ Piezo Buzzer<br>
+ 12V,1A Power Adapter<br>
+ Exhaust Fan<br>
 
